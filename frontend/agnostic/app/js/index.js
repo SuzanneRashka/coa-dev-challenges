@@ -20,4 +20,18 @@ $.ajax({
   }
 
   console.log(hour)
-})
+});
+
+
+
+
+/*
+To average times....
+....
+
+A function to track each hour and add up a count for those hours for a day ...
+but then how to handle 21:58, with is really 2200.... round up from 20 minutes til??
+
+...
+
+*/
