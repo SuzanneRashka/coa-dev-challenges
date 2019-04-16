@@ -1,0 +1,26 @@
+$light-grey: #E5E5E5;
+
+.header {
+    margin: 20px;
+    padding: 10px;
+}
+
+.card {
+    padding: 15px;
+    margin: 10px;
+
+}
+
+img {
+    .chart-pie {
+        max-height: 100%;
+        width: auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .chart-pie {
+        max-width: 100%;
+        height: auto;
+    }
+}
